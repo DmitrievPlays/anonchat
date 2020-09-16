@@ -1,9 +1,0 @@
-#!/bash/bin
-
-git clone https://github.com/phpmyadmin/phpmyadmin.git
-
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-
-php composer-setup.php
-
-composer update --no-dev
